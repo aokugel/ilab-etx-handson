@@ -1,8 +1,8 @@
-version: 3 
+version: 3
 domain: IT technical documentation
 created_by: akugel, mchin
 document_outline: |
-  Technical documentation regarding the installation of openshift ai self managed version 2.18 in 
+  Technical documentation regarding the installation of openshift ai self managed version 2.18 in
   a disconnected environment.
 seed_examples:
   - context: |
@@ -22,18 +22,18 @@ seed_examples:
       - To use the model registry component, you must also install Operators for Red Hat Authorino, Red Hat OpenShift Serverless, and Red Hat OpenShift Service Mesh. For more information about configuring the model registry component, see Configuring the model registry component.
 
     questions_and_answers:
-        - question: |
-            Installing OpenShift AI Operator with all components Managed has a dependency on what operators?
-          answer: |
-            To fully install the OpenShift AI Operator with all its components, one must first install Red Hat OpenShift Service Mesh 2 Operator, Red Hat Authorino Operator and Red Hat OpenShift Serverless Operator.
-        - question: |
-            Can I install OpenShift AI if I have Argo Workflows already installed on my OpenShift cluster?
-          answer: |
-            Yes, one can install OpenShift AI on an OpenShift cluster that already has the Argo Workflows Operator installed. However, the OpenShift AI component Data science pipelines will not be able to be installed if the Argo Workflows Operator is already installed. To enable that component, first uninstall any existing Argo Workflows operators.
-        - question: |
-            Where can one store their OpenShift AI Data science pipeline artifacts?
-          answer: |
-            One can store their OpenShift AI Data science pipeline artifacts in either local storage or an S3-compatible object storage bucket with write access. It is recommended to store these artifacts in an S3-compatible object storage bucket.
+      - question: |
+          Installing OpenShift AI Operator with all components Managed has a dependency on what operators?
+        answer: |
+          To fully install the OpenShift AI Operator with all its components, one must first install Red Hat OpenShift Service Mesh 2 Operator, Red Hat Authorino Operator and Red Hat OpenShift Serverless Operator.
+      - question: |
+          Can I install OpenShift AI if I have Argo Workflows already installed on my OpenShift cluster?
+        answer: |
+          Yes, one can install OpenShift AI on an OpenShift cluster that already has the Argo Workflows Operator installed. However, the OpenShift AI component Data science pipelines will not be able to be installed if the Argo Workflows Operator is already installed. To enable that component, first uninstall any existing Argo Workflows operators.
+      - question: |
+          Where can one store their OpenShift AI Data science pipeline artifacts?
+        answer: |
+          One can store their OpenShift AI Data science pipeline artifacts in either local storage or an S3-compatible object storage bucket with write access. It is recommended to store these artifacts in an S3-compatible object storage bucket.
   - context: |
       #### 3.3. Mirroring images to a private registry for a disconnected installation
       You can install the Red Hat OpenShift AI Operator to your OpenShift cluster in a disconnected environment by mirroring the required container images to a private container registry. After mirroring the images to a container registry, you can install Red Hat OpenShift AI Operator by using OperatorHub.
@@ -50,19 +50,19 @@ seed_examples:
       Note
       This procedure uses the oc-mirror plugin v2 (the oc-mirror plugin v1 is now deprecated). For more information, see Changes from oc-mirror plugin v1 to v2 in the OpenShift documentation.
     questions_and_answers:
-        - question: |
-            What Prerequisite must be performed in order to install Openshift AI in a disconnected environment?  
-          answer: |
-            You must first mirror the required container images for openshift ai in a private registry.  Then you can 
-            install the openshift ai operator in OperatorHub.
-        - question: |
-            What step must completed if you want to used nvidia gpus on your disconnected installation of Openshift Ai?
-          answer: |
-            You need to mirror the required images for the Nvidia GPU operator, as well as having deployed the operator.
-        - question: |
-            I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
-          answer: |
-            You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads. It is recommended to store these artifacts in an S3-compatible object storage bucket.
+      - question: |
+          What Prerequisite must be performed in order to install Openshift AI in a disconnected environment?
+        answer: |
+          You must first mirror the required container images for openshift ai in a private registry.  Then you can
+          install the openshift ai operator in OperatorHub.
+      - question: |
+          What step must completed if you want to used nvidia gpus on your disconnected installation of Openshift Ai?
+        answer: |
+          You need to mirror the required images for the Nvidia GPU operator, as well as having deployed the operator.
+      - question: |
+          I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
+        answer: |
+          You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads. It is recommended to store these artifacts in an S3-compatible object storage bucket.
   - context: |
       apiVersion: datasciencecluster.opendatahub.io/v1
       kind: DataScienceCluster
@@ -89,9 +89,9 @@ seed_examples:
           trustyai:
             managementState: Removed
           workbenches:
-            managementState: Removed1 
+            managementState: Removed1
                         To fully install the KServe component, which is used by the single-model serving platform to serve large models, you must install Operators for Red Hat OpenShift Service Mesh and Red Hat OpenShift Serverless and perform additional configuration. See Installing the single-model serving platform.
-                      2 
+                      2
                         If you have not enabled the KServe component (that is, you set the value of the managementState field to Removed), you must also disable the dependent Service Mesh component to avoid errors. See Disabling KServe dependencies.
       6. In the spec.components section of the CR, for each OpenShift AI component shown, set the value of the managementState field to either Managed or Removed . These values are defined as follows: Managed The Operator actively manages the component, installs it, and tries to keep it active. The Operator will upgrade the component only if it is safe to do so. Removed The Operator actively manages the component but does not install it. If the component is already installed, the Operator will try to remove it. Important
       7. In the spec.components section of the CR, for each OpenShift AI component shown, set the value of the managementState field to either Managed or Removed. These values are defined as follows:
@@ -99,18 +99,18 @@ seed_examples:
           - To learn how to fully install the KServe component, which is used by the single-model serving platform to serve large models, see Installing the single-model serving platform.
           - If you have not enabled the KServe component (that is, you set the value of the managementState field to Removed), you must also disable the dependent Service Mesh component to avoid errors. See Disabling KServe dependencies.
     questions_and_answers:
-        - question: |
-            What are the minimum OpenShift AI components one needs to install to start a workbench?
-          answer: |
-            There are three OpenShift AI components that must be installed in order to get a minimally functional workbench started. Those components are dashboard, workbenches, and modelmeshserving.
-        - question: |
-            When creating a DataScienceCluster, how do I turn on or off the compoenents?
-          answer: |
-            When creating a DataScienceCluster, its yaml config lists the OpenShift AI components. If the component's managementState is set to Removed, it will not be installed. If it is set to Managed, it will be installed. To install an uninstalled component later, change its managementState from 'Removed' to 'Managed'.
-        - question: |
-            What are the components of OpenShift AI?
-          answer: |
-            The OpenShift AI components are codeflare, dashboard, datasciencepipelines, kserve, kueue, modelmeshserving, ray, trainingoperator, trustyai, and workbenches.
+      - question: |
+          What are the minimum OpenShift AI components one needs to install to start a workbench?
+        answer: |
+          There are three OpenShift AI components that must be installed in order to get a minimally functional workbench started. Those components are dashboard, workbenches, and modelmeshserving.
+      - question: |
+          When creating a DataScienceCluster, how do I turn on or off the compoenents?
+        answer: |
+          When creating a DataScienceCluster, its yaml config lists the OpenShift AI components. If the component's managementState is set to Removed, it will not be installed. If it is set to Managed, it will be installed. To install an uninstalled component later, change its managementState from 'Removed' to 'Managed'.
+      - question: |
+          What are the components of OpenShift AI?
+        answer: |
+          The OpenShift AI components are codeflare, dashboard, datasciencepipelines, kserve, kueue, modelmeshserving, ray, trainingoperator, trustyai, and workbenches.
   - context: |
       ##### 3.6.2. Installing Red Hat OpenShift AI components by using the web console
       To install Red Hat OpenShift AI components by using the OpenShift web console, you must create and configure a DataScienceCluster object.
@@ -143,28 +143,28 @@ seed_examples:
       kserve:
       managementState: Removed
     questions_and_answers:
-        - question: |
-            What is the first step to install Red Hat OpenShift AI components using the web console?  
-          answer: |
-            The first step is to log in to the OpenShift web console as a cluster administrator. After logging in, you need to navigate to Operators → Installed Operators and then click the Red Hat OpenShift AI Operator to begin the installation process.
-        - question: |
-            What prerequisites must be met before installing Red Hat OpenShift AI components via the web console?
-          answer: |
-            There are two prerequisites that must be met before installing Red Hat OpenShift AI components via the web console:
+      - question: |
+          What is the first step to install Red Hat OpenShift AI components using the web console?
+        answer: |
+          The first step is to log in to the OpenShift web console as a cluster administrator. After logging in, you need to navigate to Operators → Installed Operators and then click the Red Hat OpenShift AI Operator to begin the installation process.
+      - question: |
+          What prerequisites must be met before installing Red Hat OpenShift AI components via the web console?
+        answer: |
+          There are two prerequisites that must be met before installing Red Hat OpenShift AI components via the web console:
 
-            1. The Red Hat OpenShift AI Operator must already be installed on your OpenShift cluster.
-            2. You must have cluster administrator privileges for your OpenShift cluster.
-        - question: |
-            How do you create and configure a DataScienceCluster object in the OpenShift web console?
-          answer: |
-            To create and configure a DataScienceCluster object in the OpenShift web console, follow these steps:
+          1. The Red Hat OpenShift AI Operator must already be installed on your OpenShift cluster.
+          2. You must have cluster administrator privileges for your OpenShift cluster.
+      - question: |
+          How do you create and configure a DataScienceCluster object in the OpenShift web console?
+        answer: |
+          To create and configure a DataScienceCluster object in the OpenShift web console, follow these steps:
 
-            1. Log in to the OpenShift web console as a cluster administrator
-            2. Navigate to Operators → Installed Operators and click the Red Hat OpenShift AI Operator
-            3. Click the Data Science Cluster tab
-            4. Click Create DataScienceCluster
-            5. For Configure via, select YAML view
-            6. Edit the default custom resource (CR) for the DataScienceCluster object as needed to specify which components to install by changing their managementState values
+          1. Log in to the OpenShift web console as a cluster administrator
+          2. Navigate to Operators → Installed Operators and click the Red Hat OpenShift AI Operator
+          3. Click the Data Science Cluster tab
+          4. Click Create DataScienceCluster
+          5. For Configure via, select YAML view
+          6. Edit the default custom resource (CR) for the DataScienceCluster object as needed to specify which components to install by changing their managementState values
   - context: |
       ### Chapter 5. Installing the single-model serving platform
 
@@ -180,20 +180,20 @@ seed_examples:
 
       You can install the single-model serving platform manually or in an automated fashion:
     questions_and_answers:
-        - question: |
-            What is an OpenShift AI solution for deploying/serving large language models (LLMs)?
-          answer: |
-            The OpenShift AI solution for serving LLMs is based on the KServe component.
-        - question: |
-            What prerequisites must be deployed before installing OpenShift AI's LLM serving component?
-          answer: |
-            The prerequisites are that one has to have first installed the ServiceMesh 2 Operator, the OpenShift Serverless Operator, and the KServe component.
-        - question: |
-            What is the open source version of the OpenShift Serverless Operator?
-          answer: |
-            The OpenShift Serverless Operator is based on the open source Knative project.
-document: 
+      - question: |
+          What is an OpenShift AI solution for deploying/serving large language models (LLMs)?
+        answer: |
+          The OpenShift AI solution for serving LLMs is based on the KServe component.
+      - question: |
+          What prerequisites must be deployed before installing OpenShift AI's LLM serving component?
+        answer: |
+          The prerequisites are that one has to have first installed the ServiceMesh 2 Operator, the OpenShift Serverless Operator, and the KServe component.
+      - question: |
+          What is the open source version of the OpenShift Serverless Operator?
+        answer: |
+          The OpenShift Serverless Operator is based on the open source Knative project.
+document:
   repo: https://github.com/aokugel/ilab-etx-handson.git
   commit: 47bbb275afc5e02c4af5851390e81c29017bfea1
   patterns:
-  - knowledge2.md
+    - knowledge2.md
