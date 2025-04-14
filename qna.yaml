@@ -63,6 +63,55 @@ seed_examples:
             I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
           answer: |
             You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads.
+is recommended to store these artifacts in an S3-compatible object storage bucket.
+  - context: |
+      apiVersion: datasciencecluster.opendatahub.io/v1
+      kind: DataScienceCluster
+      metadata:
+        name: default-dsc
+      spec:
+        components:
+          codeflare:
+            managementState: Removed
+          dashboard:
+            managementState: Removed
+          datasciencepipelines:
+            managementState: Removed
+          kserve:
+            managementState: Removed 1 2
+          kueue:
+            managementState: Removed
+          modelmeshserving:
+            managementState: Removed
+          ray:
+            managementState: Removed
+          trainingoperator:
+            managementState: Removed
+          trustyai:
+            managementState: Removed
+          workbenches:
+            managementState: Removed1 
+                        To fully install the KServe component, which is used by the single-model serving platform to serve large models, you must install Operators for Red Hat OpenShift Service Mesh and Red Hat OpenShift Serverless and perform additional configuration. See Installing the single-model serving platform.
+                      2 
+                        If you have not enabled the KServe component (that is, you set the value of the managementState field to Removed), you must also disable the dependent Service Mesh component to avoid errors. See Disabling KServe dependencies.
+      6. In the spec.components section of the CR, for each OpenShift AI component shown, set the value of the managementState field to either Managed or Removed . These values are defined as follows: Managed The Operator actively manages the component, installs it, and tries to keep it active. The Operator will upgrade the component only if it is safe to do so. Removed The Operator actively manages the component but does not install it. If the component is already installed, the Operator will try to remove it. Important
+      7. In the spec.components section of the CR, for each OpenShift AI component shown, set the value of the managementState field to either Managed or Removed. These values are defined as follows:
+      8. Important
+          - To learn how to fully install the KServe component, which is used by the single-model serving platform to serve large models, see Installing the single-model serving platform.
+          - If you have not enabled the KServe component (that is, you set the value of the managementState field to Removed), you must also disable the dependent Service Mesh component to avoid errors. See Disabling KServe dependencies.
+    questions_and_answers:
+        - question: |
+            What are the minimum OpenShift AI components one needs to install to start a workbench?
+          answer: |
+            There are three OpenShift AI components that must be installed in order to get a minimally functional workbench started. Those components are dashboard, workbenches, and modelmeshserving.
+        - question: |
+            When creating a DataScienceCluster, how do I turn on or off the compoenents?
+          answer: |
+            When creating a DataScienceCluster, its yaml config lists the OpenShift AI components. If the component's managementState is set to Removed, it will not be installed. If it is set to Managed, it will be installed. To install an uninstalled component later, change its managementState from 'Removed' to 'Managed'.
+        - question: |
+            What are the components of OpenShift AI?
+          answer: |
+            The OpenShift AI components are codeflare, dashboard, datasciencepipelines, kserve, kueue, modelmeshserving, ray, trainingoperator, trustyai, and workbenches.
   - context:
     questions_and_answers:
   - context:
