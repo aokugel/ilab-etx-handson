@@ -1,0 +1,19 @@
+version: 3 
+domain: IT technical documentation
+created_by: akugel, mchin
+document_outline: |
+  Technical documentation regarding the installation of openshift ai self managed version 2.18 in 
+  a disconnected environment.
+seed_examples:
+- context:
+  questions_and_answers:
+  - questions: |
+
+    answer: |
+      
+- context:
+  questions_and_answers:
+- context:
+  questions_and_answers:
+- context:
+  questions_and_answers:
