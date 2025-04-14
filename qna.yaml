@@ -192,3 +192,8 @@ seed_examples:
             What is the open source version of the OpenShift Serverless Operator?
           answer: |
             The OpenShift Serverless Operator is based on the open source Knative project.
+document: 
+  repo: https://github.com/aokugel/ilab-etx-handson.git
+  commit: 47bbb275afc5e02c4af5851390e81c29017bfea1
+  patterns:
+  - knowledge2.md
