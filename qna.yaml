@@ -34,6 +34,35 @@ seed_examples:
             Where can one store their OpenShift AI Data science pipeline artifacts?
           answer: |
             One can store their OpenShift AI Data science pipeline artifacts in either local storage or an S3-compatible object storage bucket with write access. It is recommended to store these artifacts in an S3-compatible object storage bucket.
+  - context: |
+      #### 3.3. Mirroring images to a private registry for a disconnected installation
+      You can install the Red Hat OpenShift AI Operator to your OpenShift cluster in a disconnected environment by mirroring the required container images to a private container registry. After mirroring the images to a container registry, you can install Red Hat OpenShift AI Operator by using OperatorHub.
+      You can use the mirror registry for Red Hat OpenShift, a small-scale container registry, as a target for mirroring the required container images for OpenShift AI in a disconnected environment. Using the mirror registry for Red Hat OpenShift is optional if another container registry is already available in your installation environment.
+      Prerequisites
+      - You have cluster administrator access to a running OpenShift Container Platform cluster, version 4.14 or greater.
+      - You have credentials for Red Hat OpenShift Cluster Manager (https://console.redhat.com/openshift/).
+      - Your mirroring machine is running Linux, has 100 GB of space available, and has access to the Internet so that it can obtain the images to populate the mirror repository.
+      - You have installed the OpenShift CLI (oc).
+      - If you plan to use NVIDIA GPUs, you have mirrored and deployed the NVIDIA GPU Operator. See Configuring the NVIDIA GPU Operator in the OpenShift Container Platform documentation.
+      - If you plan to use data science pipelines, you have mirrored the OpenShift Pipelines operator.
+      - If you plan to use the single-model serving platform to serve large models, you have mirrored the Operators for Red Hat OpenShift Serverless and Red Hat OpenShift Service Mesh. For more information, see Serving large models.
+      - If you plan to use the distributed workloads component, you have mirrored the Ray cluster image.
+      Note
+      This procedure uses the oc-mirror plugin v2 (the oc-mirror plugin v1 is now deprecated). For more information, see Changes from oc-mirror plugin v1 to v2 in the OpenShift documentation.
+    questions_and_answers:
+        - question: |
+            What Prerequisite must be performed in order to install Openshift AI in a disconnected environment?  
+          answer: |
+            You must first mirror the required container images for openshift ai in a private registry.  Then you can 
+            install the openshift ai operator in OperatorHub.
+        - question: |
+            What step must completed if you want to used nvidia gpus on your disconnected installation of Openshift Ai?
+          answer: |
+            You need to mirror the required images for the Nvidia GPU operator, as well as having deployed the operator.
+        - question: |
+            I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
+          answer: |
+            You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads.
   - context:
     questions_and_answers:
   - context:
