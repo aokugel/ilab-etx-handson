@@ -63,7 +63,7 @@ seed_examples:
             I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
           answer: |
             You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads.
-is recommended to store these artifacts in an S3-compatible object storage bucket.
+            is recommended to store these artifacts in an S3-compatible object storage bucket.
   - context: |
       apiVersion: datasciencecluster.opendatahub.io/v1
       kind: DataScienceCluster
@@ -112,6 +112,60 @@ is recommended to store these artifacts in an S3-compatible object storage bucke
             What are the components of OpenShift AI?
           answer: |
             The OpenShift AI components are codeflare, dashboard, datasciencepipelines, kserve, kueue, modelmeshserving, ray, trainingoperator, trustyai, and workbenches.
+  - context: |
+      ##### 3.6.2. Installing Red Hat OpenShift AI components by using the web console
+      To install Red Hat OpenShift AI components by using the OpenShift web console, you must create and configure a DataScienceCluster object.
+      Important
+      The following procedure describes how to create and configure a DataScienceCluster object to install Red Hat OpenShift AI components as part of a new installation.
+      - For information about changing the installation status of OpenShift AI components after installation, see Updating the installation status of Red Hat OpenShift AI components by using the web console.
+      - For information about upgrading OpenShift AI, see Upgrading OpenShift AI Self-Managed in a disconnected environment.
+      Prerequisites
+      - The Red Hat OpenShift AI Operator is installed on your OpenShift cluster. See Installing the Red Hat OpenShift AI Operator.
+      - You have cluster administrator privileges for your OpenShift cluster.
+      Procedure
+      1. Log in to the OpenShift web console as a cluster administrator.
+      2. In the web console, click Operators → Installed Operators and then click the Red Hat OpenShift AI Operator.
+      3. Click the Data Science Cluster tab.
+      4. Click Create DataScienceCluster.
+      5. For Configure via, select YAML view.
+      An embedded YAML editor opens showing a default custom resource (CR) for the DataScienceCluster object, similar to the following example:
+      apiVersion: datasciencecluster.opendatahub.io/v1
+      kind: DataScienceCluster
+      metadata:
+      name: default-dsc
+      spec:
+      components:
+      codeflare:
+      managementState: Removed
+      dashboard:
+      managementState: Removed
+      datasciencepipelines:
+      managementState: Removed
+      kserve:
+      managementState: Removed
+    questions_and_answers:
+        - question: |
+            What is the first step to install Red Hat OpenShift AI components using the web console?  
+          answer: |
+            The first step is to log in to the OpenShift web console as a cluster administrator. After logging in, you need to navigate to Operators → Installed Operators and then click the Red Hat OpenShift AI Operator to begin the installation process.
+        - question: |
+            What prerequisites must be met before installing Red Hat OpenShift AI components via the web console?
+          answer: |
+            There are two prerequisites that must be met before installing Red Hat OpenShift AI components via the web console:
+
+            1. The Red Hat OpenShift AI Operator must already be installed on your OpenShift cluster.
+            2. You must have cluster administrator privileges for your OpenShift cluster.
+        - question: |
+            How do you create and configure a DataScienceCluster object in the OpenShift web console?
+          answer: |
+            To create and configure a DataScienceCluster object in the OpenShift web console, follow these steps:
+
+            1. Log in to the OpenShift web console as a cluster administrator
+            2. Navigate to Operators → Installed Operators and click the Red Hat OpenShift AI Operator
+            3. Click the Data Science Cluster tab
+            4. Click Create DataScienceCluster
+            5. For Configure via, select YAML view
+            6. Edit the default custom resource (CR) for the DataScienceCluster object as needed to specify which components to install by changing their managementState values
   - context:
     questions_and_answers:
   - context:
