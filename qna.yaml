@@ -62,8 +62,7 @@ seed_examples:
         - question: |
             I have a requirement to deploy distributed workloads using Openshift AI.  What operator should i use, and how should i install it?
           answer: |
-            You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads.
-            is recommended to store these artifacts in an S3-compatible object storage bucket.
+            You will want to mirror the Ray cluster image, which will allow you to use the distributed workloads. It is recommended to store these artifacts in an S3-compatible object storage bucket.
   - context: |
       apiVersion: datasciencecluster.opendatahub.io/v1
       kind: DataScienceCluster
@@ -166,9 +165,30 @@ seed_examples:
             4. Click Create DataScienceCluster
             5. For Configure via, select YAML view
             6. Edit the default custom resource (CR) for the DataScienceCluster object as needed to specify which components to install by changing their managementState values
-  - context:
+  - context: |
+      ### Chapter 5. Installing the single-model serving platform
+
+      #### 5.1. About the single-model serving platform
+
+      For deploying large models such as large language models (LLMs), OpenShift AI includes a single-model serving platform that is based on the KServe component. To install the single-model serving platform, the following components are required:
+
+      - KServe: A Kubernetes custom resource definition (CRD) that orchestrates model serving for all types of models. KServe includes model-serving runtimes that implement the loading of given types of model servers. KServe also handles the lifecycle of the deployment object, storage access, and networking setup.
+      - Red Hat OpenShift Serverless: A cloud-native development model that allows for serverless deployments of models. OpenShift Serverless is based on the open source Knative project.
+      - Red Hat OpenShift Service Mesh: A service mesh networking layer that manages traffic flows and enforces access policies. OpenShift Service Mesh is based on the open source Istio project.
+                Note
+                    Currently, only OpenShift Service Mesh v2 is supported. For more information, see Supported Configurations.
+
+      You can install the single-model serving platform manually or in an automated fashion:
     questions_and_answers:
-  - context:
-    questions_and_answers:
-  - context:
-    questions_and_answers:
+        - question: |
+            What is an OpenShift AI solution for deploying/serving large language models (LLMs)?
+          answer: |
+            The OpenShift AI solution for serving LLMs is based on the KServe component.
+        - question: |
+            What prerequisites must be deployed before installing OpenShift AI's LLM serving component?
+          answer: |
+            The prerequisites are that one has to have first installed the ServiceMesh 2 Operator, the OpenShift Serverless Operator, and the KServe component.
+        - question: |
+            What is the open source version of the OpenShift Serverless Operator?
+          answer: |
+            The OpenShift Serverless Operator is based on the open source Knative project.
