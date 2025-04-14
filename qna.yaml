@@ -5,15 +5,38 @@ document_outline: |
   Technical documentation regarding the installation of openshift ai self managed version 2.18 in 
   a disconnected environment.
 seed_examples:
-- context:
-  questions_and_answers:
-  - questions: |
+  - context: |
+      Data science pipelines preparation
 
-    answer: |
-      
-- context:
-  questions_and_answers:
-- context:
-  questions_and_answers:
-- context:
-  questions_and_answers:
+      - Data science pipelines 2.0 contains an installation of Argo Workflows. If there is an existing installation of Argo Workflows that is not installed by data science pipelines on your cluster, data science pipelines will be disabled after you install OpenShift AI. Before installing OpenShift AI, ensure that your cluster does not have an existing installation of Argo Workflows that is not installed by data science pipelines, or remove the separate installation of Argo Workflows from your cluster.
+      - Before you can execute a pipeline in a disconnected environment, you must upload the images to your private registry. For more information, see Mirroring images to run pipelines in a restricted environment.
+      - You can store your pipeline artifacts in an S3-compatible object storage bucket so that you do not consume local storage. To do this, you must first configure write access to your S3 bucket on your storage account.
+
+      Install KServe dependencies
+
+      - To support the KServe component, which is used by the single-model serving platform to serve large models, you must also install Operators for Red Hat OpenShift Serverless and Red Hat OpenShift Service Mesh and perform additional configuration. For more information, see About the single-model serving platform.
+      - If you want to add an authorization provider for the single-model serving platform, you must install the Red Hat - Authorino Operator. For information, see Adding an authorization provider for the single-model serving platform.
+
+      Install model registry dependencies (Technology Preview feature)
+
+      - To use the model registry component, you must also install Operators for Red Hat Authorino, Red Hat OpenShift Serverless, and Red Hat OpenShift Service Mesh. For more information about configuring the model registry component, see Configuring the model registry component.
+
+    questions_and_answers:
+        - question: |
+            Installing OpenShift AI Operator with all components Managed has a dependency on what operators?
+          answer: |
+            To fully install the OpenShift AI Operator with all its components, one must first install Red Hat OpenShift Service Mesh 2 Operator, Red Hat Authorino Operator and Red Hat OpenShift Serverless Operator.
+        - question: |
+            Can I install OpenShift AI if I have Argo Workflows already installed on my OpenShift cluster?
+          answer: |
+            Yes, one can install OpenShift AI on an OpenShift cluster that already has the Argo Workflows Operator installed. However, the OpenShift AI component Data science pipelines will not be able to be installed if the Argo Workflows Operator is already installed. To enable that component, first uninstall any existing Argo Workflows operators.
+        - question: |
+            Where can one store their OpenShift AI Data science pipeline artifacts?
+          answer: |
+            One can store their OpenShift AI Data science pipeline artifacts in either local storage or an S3-compatible object storage bucket with write access. It is recommended to store these artifacts in an S3-compatible object storage bucket.
+  - context:
+    questions_and_answers:
+  - context:
+    questions_and_answers:
+  - context:
+    questions_and_answers:
