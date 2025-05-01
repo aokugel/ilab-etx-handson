@@ -2,7 +2,7 @@ version: 3
 domain: Sports figure knowledge
 created_by: akugel, mchin
 document_outline: |
-  Sports information regardig the personal life of basketball personality 
+  Sports information regardig the personal life of basketball personality
   Caitlin Clark
 seed_examples:
   - context: |-
@@ -34,6 +34,9 @@ seed_examples:
           her team to multiple national championship games. Her ability to break records
           and earn prestigious awards throughout her career demonstrates her skill and
           influence on the game.
+      - question: |-
+          When did Caitlin Clark lead the big 10 in points and assists?
+        answer: In her sophmore season
   - context: |-
       Clark was born on January 22, 2002, in  Des Moines, Iowa , and grew up in  West
       Des Moines . She started playing basketball at age five and competed in boys'
@@ -518,45 +521,6 @@ seed_examples:
         answer: |-
           Clark is considered a clutch player because she scored 40 points and made a
           long, game-winning three-pointer as time expired in the game.
-  - context: "On January 31, 2024, Clark posted 35 points and 10 assists in a 110\u2013\
-      74 win over\nNorthwestern , breaking the Big Ten all-time scoring record held\
-      \ by Kelsey\nMitchell of Ohio State. In February,  Fox began devoting a camera,\
-      \ called the\n\"Caitlin Cam,\" to record Clark during its broadcasts of Iowa\
-      \ games and to stream\non TikTok . She became the sixth Division I women's player\
-      \ with 1,000 career\nassists during the Hawkeyes' 82\u201379 loss at Nebraska\
-      \ on February 11, where she\ntallied 31 points, 10 assists and eight rebounds.\
-      \ On February 15, Clark became\nthe  NCAA Division I women's career scoring\
-      \ leader , surpassing Kelsey Plum,\nduring a 106\u201389 win over Michigan.\
-      \ She finished the game with a career-high 49\npoints, 13 assists and five rebounds,\
-      \ eclipsing Gustafson for the program\nsingle-game scoring record. Between her\
-      \ points and assists, Clark was\nresponsible for 79 of her team's points, the\
-      \ most by any Division I women's\nplayer in at least 25 seasons. On February\
-      \ 28, Clark passed  Lynette Woodard ,\nwho played for Kansas  in the era when\
-      \ the  Association of Intercollegiate\nAthletics for Women governed women's\
-      \ college sports, to become the all-time\nleader in points among major women's\
-      \ college players. During the game, she\nposted her second straight triple-double,\
-      \ with 33 points, 12 assists and 10\nrebounds, leading the Hawkeyes to a 108\u2013\
-      60 win over Minnesota. She also set the\nBig Ten career record for three-pointers,\
-      \ surpassing Kelsey Mitchell, and the\nNCAA single-season record in the same\
-      \ category, previously held by Taylor Pierce\nof Idaho . In her final regular\
-      \ season game, on March 3, Clark became the NCAA\nDivision I all-time leading\
-      \ scorer among men's or women's players, eclipsing\nPete Maravich , who had\
-      \ set the men's scoring record in three seasons with LSU .\nShe tallied 35 points,\
-      \ nine assists and six rebounds in a 93\u201383 win over AP No.\n2 Ohio State.\
-      \ She finished the regular season as the unanimous Big Ten Player of\nthe Year\
-      \ and earned first-team All-Big Ten honors from the league's coaches and\nmedia."
-    questions_and_answers:
-      - question: |-
-          Who did Caitlin Clark surpass to become the all-time leading scorer among major
-          women's college players?
-        answer: Lynette Woodard
-      - question: |-
-          What are the three records Caitlin Clark set during her final regular season
-          game against Ohio State?
-        answer: |-
-          Caitlin Clark became the NCAA Division I all-time leading scorer among men's or
-          women's players, eclipsing Pete Maravich's men's scoring record, tallied 35
-          points, and set the NCAA single-season record in three-pointers.
   - context: "During the Hawkeyes' quarterfinal win over  Penn State  at the 2024\
       \ Big Ten\ntournament , Clark surpassed  Stephen Curry  of Davidson  and  Darius\
       \ McGhee  of\nLiberty  for the most three-pointers in a single season by any\
@@ -694,27 +658,6 @@ seed_examples:
         answer: |-
           Clark's talent and personality have been likened to Diana Taurasi, Sue Bird,
           Sabrina Ionescu, and Maya Moore, LeBron James, Kevin Durant, and Pete Maravich.
-  - context: |-
-      Widely considered a generational talent, Clark is described as one of the
-      greatest women's college basketball players of all time by many publications.
-      ESPN analyst  Rebecca Lobo  called her the best offensive women's college player
-      since  Diana Taurasi . In part due to her unprecedented shooting range and
-      proficiency among female players, Clark has been labeled a transformative player
-      in women's basketball . Her impact on the women's game is likened to that of
-      Stephen Curry on the men's game.  USA Today  stated that she, like Curry, has
-      "redefined what a good shot is in basketball."  The Wall Street Journal
-      columnist Jason Gay wrote: "Clark is far from the first great shooter in women's
-      basketball, but she's the one who is changing the dimensionality of the game,
-      because of the distance she can shoot from and how well she can pass."
-    questions_and_answers:
-      - question: Who has been labeled a transformative player in women's basketball?
-        answer: Clark
-      - question: |-
-          How is Clark's impact on women's basketball described in comparison to Stephen
-          Curry's impact on the men's game?
-        answer: |-
-          Clark's impact on women's basketball is likened to that of Stephen Curry on the
-          men's game, she has 'redefined what a good shot is in basketball.'
   - context: |-
       Clark was credited with popularizing women's basketball during her college
       career, a phenomenon known as the "Caitlin Clark effect." Publications
@@ -897,38 +840,6 @@ seed_examples:
           Clark's appearance on the ManningCast is significant because she is the first
           college athlete to appear on the broadcast, and it further highlights her
           connection with professional sports.
-  - context: |-
-      In August 2023, the  Iowa State Fair unveiled a life-size  butter sculpture  of
-      Clark. She was one of three Iowa college athletes, alongside former football
-      players  Kurt Warner  ( Northern Iowa ) and  Jack Trice  ( Iowa State ), whose
-      sculptures were displayed. On February 22, 2024, the  Iowa House of
-      Representatives  unanimously passed a  resolution  declaring February 22 as
-      "Caitlin Clark Day" in the state, in reference to her jersey number. On March 5,
-      members of Iowa's federal delegation, including senators  Joni Ernst  and  Chuck
-      Grassley  and representative  Mariannette Miller-Meeks , introduced a resolution
-      to recognize Clark for breaking the NCAA Division I scoring record.
-    questions_and_answers:
-      - question: |-
-          Which college athlete's butter sculpture was unveiled at the Iowa State Fair in
-          August 2023?
-        answer: Caitlin Clark
-      - question: |-
-          Who are the three Iowa college athletes honored with butter sculptures and
-          federal recognition for their athletic achievements?
-        answer: Caitlin Clark, Kurt Warner, and Jack Trice
-  - context: |-
-      Clark was the subject of media attention ahead of the  Iowa Republican
-      presidential caucuses  in January 2024. Before attending the Hawkeyes' home game
-      against Minnesota, presidential candidate  Nikki Haley praised Clark in front of
-      a local crowd but mistakenly called her "Caitlin Collins". Writers speculated
-      that Haley confused Clark's name with  CNN  anchor  Kaitlan Collins , who joked
-      about the incident on X . In the following week, Collins hosted an interview in
-      Iowa with presidential candidate  Ron DeSantis , who handed her a Clark jersey
-      in reference to the incident.
-    questions_and_answers:
-      - question: What was the name of the CNN anchor that Nikki Haley mistakenly
-          called Clark?
-        answer: Kaitlan Collins
 document:
   repo: https://github.com/aokugel/ilab-etx-handson.git
   commit: 294dad30efb5546f7ce0a9bbcb8fe3c4678dc13e
