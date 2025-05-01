@@ -931,6 +931,6 @@ seed_examples:
         answer: Kaitlan Collins
 document:
   repo: https://github.com/aokugel/ilab-etx-handson.git
-  commit: 47bbb275afc5e02c4af5851390e81c29017bfea1
+  commit: 294dad30efb5546f7ce0a9bbcb8fe3c4678dc13e
   patterns:
     - caitlin_clark.md
