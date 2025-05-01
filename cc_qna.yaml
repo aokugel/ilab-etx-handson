@@ -1,0 +1,936 @@
+version: 3
+domain: Sports figure knowledge
+created_by: akugel, mchin
+document_outline: |
+  Sports information regardig the personal life of basketball personality 
+  Caitlin Clark
+seed_examples:
+  - context: |-
+      Clark attended  Dowling Catholic High School  in her hometown of West Des
+      Moines, Iowa , where she was named a  McDonald's All-American  and rated the
+      fourth-best player in her class by  ESPN . In her freshman  season with Iowa,
+      she led the NCAA Division I in scoring and earned All-American  honors. As a
+      sophomore , Clark was a unanimous first-team All-American and became the first
+      women's player to lead Division I in points  and assists  in a single season. In
+      her junior  season, she was the national player of the year and led Iowa to its
+      first  national championship game . Clark again led Division I in assists and
+      set Big Ten single-season marks in points and assists. As a senior , she
+      repeated as national player of the year and helped Iowa return to the  national
+      title game . Clark became the Division I career and single-season leader in
+      points and  three-pointers  and broke the all-time conference record in assists,
+      while leading the nation in both points and assists.
+    questions_and_answers:
+      - question: |-
+          What is the name of the player who led the NCAA Division I in scoring in her
+          freshman season?
+        answer: Clark
+      - question: |-
+          Based on Clark's college career, what can be inferred about her impact on the
+          game of basketball?
+        answer: |-
+          Clark had a significant impact on the game of basketball, as evidenced by her
+          numerous awards and records. She was a dominant scorer and passer, leading the
+          NCAA Division I in scoring and assists in multiple seasons. She also helped lead
+          her team to multiple national championship games. Her ability to break records
+          and earn prestigious awards throughout her career demonstrates her skill and
+          influence on the game.
+  - context: |-
+      Clark was born on January 22, 2002, in  Des Moines, Iowa , and grew up in  West
+      Des Moines . She started playing basketball at age five and competed in boys'
+      recreational leagues , because her father could not find a girls' league for her
+      age group. Clark also played softball ,  volleyball , soccer ,  tennis , and
+      golf  as a child before focusing on basketball. At age 13, she began playing
+      several years ahead of her age group in girls' leagues. In  sixth grade , Clark
+      joined All Iowa Attack, an Amateur Athletic Union  (AAU) basketball program
+      based in  Ames, Iowa , for whom she played until graduating from high school.
+      She was coached by Dickson Jensen with Attack, and her AAU teammates included
+      future Women's National Basketball Association  (WNBA) player  Ashley Joens .
+      Clark drew inspiration from  Maya Moore  of the  Minnesota Lynx , the closest
+      WNBA team to her hometown, and traveled with her father for three-and-a-half
+      hours to see their games. She admired All Iowa Attack alumnus  Harrison Barnes
+      and became a fan of the  North Carolina Tar Heels  after Barnes joined the
+      program.
+    questions_and_answers:
+      - question: What is Clark's birthdate?
+        answer: Clark was born on January 22, 2002.
+      - question: What are the sports Clark played as a child before focusing on basketball?
+        answer: |-
+          Clark played softball, volleyball, soccer, tennis, and golf as a child before
+          focusing on basketball.
+      - question: |-
+          Based on Clark's admiration for Harrison Barnes and the North Carolina Tar
+          Heels, why might she have become a fan of this team?
+        answer: |-
+          Clark might have become a fan of the North Carolina Tar Heels because Harrison
+          Barnes joined the program.
+  - context: "Clark played four years of  varsity  basketball for Dowling Catholic\
+      \ High School\nin West Des Moines under head coach Kristin Meyer. As a  freshman\
+      \ , she averaged\n15.3  points , 4.7 assists and 2.3 steals  per game. She earned\
+      \ Class 5A All-\nState third-team accolades from the Iowa Newspaper Association\
+      \ and All-Iowa\nhonorable mention from  The Des Moines Register . Clark led\
+      \ her team to a 19\u20135\nrecord and the Class 5A state tournament, where they\
+      \ lost to eventual champions\nValley High School  in the first round. In her\
+      \  sophomore  season, she averaged\n27.1 points, 6.5  rebounds , 4 assists and\
+      \ 2.3 steals per game, ranking second\nin the state in scoring. Clark was named\
+      \ first-team Class 5A All-State by the\nIowa Print Sports Writers Association\
+      \ (IPSWA) and  Central Iowa Metro League\nPlayer of the Year by  The Des Moines\
+      \ Register . She helped Dowling reach the\nClass 5A state quarterfinals and\
+      \ achieve a 20\u20134 record. Following the season,\nshe led All Iowa Attack\
+      \ to the  Nike Elite Youth Basketball League\nchampionship, scoring 23 points\
+      \ in a 64\u201361 victory over the Cal Storm in the\nfinal."
+    questions_and_answers:
+      - question: What is the name of Clark's high school?
+        answer: Dowling Catholic High School
+      - question: What are the achievements of Clark in her sophomore season?
+        answer: "In her sophomore season, Clark averaged 27.1 points, 6.5 rebounds,\
+          \ 4 assists,\nand 2.3 steals per game. She was named first-team Class 5A\
+          \ All-State by the Iowa\nPrint Sports Writers Association and Central Iowa\
+          \ Metro League Player of the\nYear by The Des Moines Register. She helped\
+          \ Dowling reach the Class 5A state\nquarterfinals and achieve a 20\u2013\
+          4 record."
+      - question: |-
+          Based on the information provided, how might Clark's leadership and performance
+          have impacted her team's morale and performance?
+        answer: |-
+          Clark's leadership and performance likely had a positive impact on her team's
+          morale and performance. Her individual achievements, such as high scoring
+          averages and recognitions, could have inspired her teammates and contributed to
+          the team's overall success, including reaching the state tournament and
+          achieving a strong record.
+  - context: "On February 4, 2019, during her junior  season, Clark scored 60 points\
+      \ in a\n90\u201378 win against  Mason City High School . Her 60-point game was\
+      \ the second-\nhighest single-game point total in Iowa five-on-five girls' basketball\
+      \ history,\nsurpassed only by Abby Roe in 1996. She also set the state single-game\
+      \ record\nwith 13 three-pointers . On February 25, Clark set the Class 5A state\
+      \ tournament\nsingle-game scoring record with 42 points in a 75\u201370 triple-overtime\
+      \ win over\nWaukee High School  in the quarterfinals. She helped Dowling reach\
+      \ the\nsemifinals of the tournament and finish with a 17\u20138 record. As a\
+      \ junior, Clark\nled the state in scoring and averaged 32.6 points, 6.8 rebounds,\
+      \ 3.6 assists and\n2.3 steals per game. She was named Iowa  Gatorade Player\
+      \ of the Year  and\nrepeated as a Class 5A All-State first-team selection by\
+      \ the IPSWA. As a senior\n, Clark averaged 33.4 points, eight rebounds, four\
+      \ assists and 2.7 steals per\ngame, leading the state in scoring for a second\
+      \ time. Her team finished with a\n19\u20134 record and reached the Class 5A\
+      \ regional final, where they were upset by\nSioux City East High School . Clark\
+      \ finished her career with the fourth-most\npoints (2,547) and the sixth-most\
+      \ three-pointers (283) in Iowa five-on-five\nhistory. She was awarded Iowa Gatorade\
+      \ Player of the Year,  Des Moines Register\nAll-Iowa Athlete of the Year, and\
+      \  Iowa Miss Basketball , while making the IPSWA\nClass 5A All-State first-team.\
+      \ Clark was selected to compete in the  McDonald's\nAll-American Game  and the\
+      \ Jordan Brand Classic , two prestigious high school\nall-star games, but both\
+      \ games were canceled due to the  COVID-19 pandemic ."
+    questions_and_answers:
+      - question: |-
+          What was the second-highest single-game point total in Iowa five-on-five girls'
+          basketball history?
+        answer: 60 points
+      - question: |-
+          What were the achievements of Clark in her junior and senior seasons in terms of
+          points, rebounds, assists, and steals per game?
+        answer: |-
+          In her junior season, Clark averaged 32.6 points, 6.8 rebounds, 3.6 assists, and
+          2.3 steals per game. In her senior season, she averaged 33.4 points, eight
+          rebounds, four assists, and 2.7 steals per game.
+      - question: |-
+          Based on her high school career statistics, how might Clark's playing style and
+          strengths be described?
+        answer: |-
+          Clark was a prolific scorer with a strong ability to shoot from beyond the
+          three-point line. She was also a capable rebounder, passer, and defender,
+          demonstrating all-around skills and versatility.
+  - context: |-
+      Clark was recruited by  NCAA Division I basketball programs before starting high
+      school, receiving her first letter of interest from  Missouri State  before
+      seventh grade. By her sophomore season at Dowling Catholic, she was ranked the
+      number one player in the 2020 high school class by ESPN . At the end of her high
+      school career, Clark was considered a five-star  recruit  and the fourth-best
+      player in her class by ESPN. Clark's family had wanted her to choose  Notre Dame
+      , and she made a verbal commitment to the school's then-head coach  Muffet
+      McGraw . However, Clark never signed a National Letter of Intent  with the
+      school, and soon reconsidered, announcing on November 12, 2019, that she would
+      commit to play  college basketball  for Iowa  over offers from Iowa State  and
+      Notre Dame. Clark was drawn to the team's up-tempo style of offense and head
+      coach  Lisa Bluder 's development of point guards. She also expected to
+      immediately have a key role on the team with the departure of  Kathleen Doyle ,
+      the reigning  Big Ten Player of the Year .
+    questions_and_answers:
+      - question: What is the name of the basketball player that committed to play
+          for Iowa?
+        answer: Caitlin Clark
+      - question: |-
+          What is the basketball player's ranking and the school she committed to,
+          according to ESPN?
+        answer: |-
+          According to ESPN, Caitlin Clark was ranked the number one player in the 2020
+          high school class and committed to play college basketball for Iowa.
+      - question: |-
+          Given the player's history of being recruited by NCAA Division I basketball
+          programs and her family's preference for Notre Dame, why do you think Caitlin
+          Clark chose to play for Iowa?
+        answer: |-
+          Caitlin Clark chose to play for Iowa because of the team's up-tempo style of
+          offense, head coach Lisa Bluder's development of point guards, and her
+          expectation of having a key role on the team with the departure of Kathleen
+          Doyle, the reigning Big Ten Player of the Year.
+  - context: "Clark entered her freshman season as Iowa's starting  point guard .\
+      \ On November\n25, 2020, she made her collegiate debut, recording 27 points,\
+      \ eight rebounds,\nand four assists in a 96\u201381 win over  Northern Iowa\
+      \ . In her second game, on\nDecember 2, Clark posted her first double-double\
+      \  with 30 points and 13 assists\nin a 103\u201397 victory over Drake . On December\
+      \ 22, in a 92\u201365 victory over\nWestern Illinois , she registered the first\
+      \ triple-double  by an Iowa player\nsince  Samantha Logic  did so in 2015. Despite\
+      \ shooting 3-of-15 from the field,\nClark had 13 points, 13 rebounds and 10\
+      \ assists during the game. On January 6,\n2021, she recorded 37 points, 11 rebounds\
+      \ and four assists in a 92\u201379 win\nagainst Minnesota . Clark posted a season-high\
+      \ 39 points, 10 rebounds and seven\nassists in an 88\u201381 win over Nebraska\
+      \  on February 11, breaking the single-game\nscoring record for  Pinnacle Bank\
+      \ Arena , the home venue of Nebraska. On\nFebruary 28, she scored 18 points\
+      \ and had a season-high 14 assists in an 84\u201370\nwin over Wisconsin . At\
+      \ the end of the regular season, Clark was a unanimous\nBig Ten Freshman of\
+      \ the Year and first-team All-Big Ten selection. She was a\n13-time Big Ten\
+      \ Freshman of the Week, setting a conference record, and led the\nBig Ten with\
+      \ five Player of the Week awards."
+    questions_and_answers:
+      - question: |-
+          What is the name of the player who made her collegiate debut on November 25,
+          2020?
+        answer: Clark
+      - question: How many times was Clark named Big Ten Freshman of the Week during
+          the season?
+        answer: 13 times
+      - question: |-
+          Given Clark's performance against Wisconsin, why is it reasonable to assume she
+          was a unanimous Big Ten Freshman of the Year?
+        answer: |-
+          Clark's impressive performance against Wisconsin, where she scored 18 points and
+          had a season-high 14 assists, was one of many standout performances she had
+          during the season. This consistency in her gameplay and her ability to lead her
+          team to victories likely contributed to her being a unanimous Big Ten Freshman
+          of the Year.
+  - context: "Clark helped Iowa achieve a runner-up finish at the  Big Ten tournament\
+      \ , where\nshe was named to the all-tournament team and recorded 37 assists,\
+      \ the most in\nthe event's history. In the second round of the  NCAA tournament\
+      \ , she posted 35\npoints, seven rebounds and six assists in an 86\u201372 win\
+      \ over  Kentucky . She\nbroke program single-game records for points and three-pointers\
+      \ (6) in the\ntournament. Iowa reached the Sweet 16, where Clark scored 21 points\
+      \ in a 92\u201372\nloss to first-seeded UConn . She was named a first-team All-American\
+      \  by the\nUnited States Basketball Writers Association (USBWA), a second-team\
+      \ All-American\nby the  Associated Press  (AP) and made the  Women's Basketball\
+      \ Coaches\nAssociation  (WBCA) Coaches' All-America team. Clark became the first\
+      \ freshman\nto win the  Dawn Staley Award , which honors the best Division I\
+      \  guard . She\nshared two major Division I freshman of the year awards with\
+      \  Paige Bueckers  of\nUConn : the  Tamika Catchings Award , presented by the\
+      \ USBWA, and the  WBCA\nFreshman of the Year  award. As a freshman, Clark averaged\
+      \ 26.6 points, 7.1\nassists, and 5.9 rebounds per game. She led the  NCAA Division\
+      \ I  in scoring and\nranked second in assists and three-pointers per game. Her\
+      \ totals in points,\nassists,  field goals  and three-pointers also led Division\
+      \ I. She set program\nfreshman records for points and assists and had the fourth-highest\
+      \ scoring\naverage in Iowa history."
+    questions_and_answers:
+      - question: |-
+          What is the name of the player who broke program single-game records for points
+          and three-pointers in the NCAA tournament?
+        answer: Caitlin Clark
+      - question: What are the awards won by Caitlin Clark as a freshman?
+        answer: |-
+          Caitlin Clark was named a first-team All-American by the USBWA, a second-team
+          All-American by the AP, made the WBCA Coaches' All-America team, won the Dawn
+          Staley Award, shared the Tamika Catchings Award with Paige Bueckers of UConn,
+          and won the WBCA Freshman of the Year award.
+      - question: Based on her performance, why is Caitlin Clark considered a promising
+          player?
+        answer: |-
+          Caitlin Clark is considered a promising player because as a freshman, she led
+          the NCAA Division I in scoring, ranked second in assists and three-pointers per
+          game, set program freshman records for points and assists, and had the fourth-
+          highest scoring average in Iowa history.
+  - context: "On November 9, 2021, Clark made her sophomore season debut, recording\
+      \ 26 points,\neight rebounds and six assists in a 93\u201350 win over  New Hampshire\
+      \ . On January\n2, 2022, she posted 44 points and eight assists in a 93\u2013\
+      56 win over  Evansville\n. Clark broke the  Carver\u2013Hawkeye Arena women's\
+      \ single-game scoring record and\nsurpassed  Kelsey Mitchell  of  Ohio State\
+      \  as the fastest Big Ten player to\nreach 1,000 career points. On January 16,\
+      \ 2022, she recorded her fourth career\ntriple-double, with 31 points, 10 rebounds\
+      \ and 10 assists in a 93\u201383 victory\nover Nebraska . In her next game,\
+      \ four days later, Clark posted 35 points, 13\nrebounds and 11 assists in a\
+      \ 105\u201349 win over Minnesota. She became the first\nDivision I men's or\
+      \ women's player to record consecutive triple-doubles with at\nleast 30 points\
+      \ and the first women's player in Big Ten history with consecutive\ntriple-doubles.\
+      \ On January 25, Clark had 18 assists, which set program and tied\nconference\
+      \ single-game records, in addition to 20 points and seven rebounds in a\n107\u2013\
+      79 win against  Penn State . On January 31, she recorded 43 points, seven\n\
+      assists and four rebounds in a 92\u201388 loss to Ohio State. On February 6,\
+      \ Clark\nscored a season-high 46 points, including 25 in the fourth quarter,\
+      \ and had 10\nassists in a 98\u201390 loss to Michigan . She set the women's\
+      \ single-game scoring\nrecord for  Crisler Center , the home arena of Michigan.\
+      \ After leading Iowa to a\nshare of the Big Ten regular season title, she was\
+      \ unanimously named  Big Ten\nPlayer of the Year and first-team All-Big Ten\
+      \ by the league's coaches and media."
+    questions_and_answers:
+      - question: |-
+          Who did Caitlin Clark break the Carver-Hawkeye Arena women's single-game scoring
+          record against?
+        answer: Evansville
+      - question: How many triple-doubles did Caitlin Clark record in her sophomore
+          season?
+        answer: Four
+      - question: |-
+          Based on the information provided, why was Caitlin Clark named Big Ten Player of
+          the Year?
+        answer: |-
+          Caitlin Clark was named Big Ten Player of the Year due to her exceptional
+          performance throughout the season, which included breaking records, setting new
+          standards, and leading Iowa to a share of the Big Ten regular season title.
+  - context: "On March 5, 2022, in the semifinals of the  Big Ten tournament , Clark\
+      \ recorded\n41 points and nine rebounds in an 83\u201366 win over Nebraska.\
+      \ She led Iowa to the\ntitle and was named the tournament's most outstanding\
+      \ player (MOP). Her team was\nupset by 10th-seeded Creighton  in the second\
+      \ round of the  NCAA tournament ,\nwhere Clark was held to a season-low 15 points\
+      \ and 11 assists, shooting 4-of-19\nfrom the field, in a 64\u201362 loss. She\
+      \ was a unanimous first-team All-American:\nshe earned first-team All-American\
+      \ honors from the AP and the USBWA, and was a\nWBCA Coaches' All-America Team\
+      \ selection. Clark became the first back-to-back\nrecipient of the Dawn Staley\
+      \ Award and won the  Nancy Lieberman Award  as the\ntop Division I point guard.\
+      \ As a sophomore, she averaged 27 points, eight\nrebounds and eight assists\
+      \ per game. Clark was the first women's player to lead\nDivision I in points\
+      \ and assists per game in a single season. She also led\nDivision I in total\
+      \ points,  free throws  and triple-doubles."
+    questions_and_answers:
+      - question: |-
+          What was the team that upset Clark's team in the second round of the NCAA
+          tournament?
+        answer: Creighton
+      - question: |-
+          What were the achievements of Clark in her sophomore season in terms of points,
+          rebounds, and assists per game?
+        answer: |-
+          Clark averaged 27 points, eight rebounds, and eight assists per game in her
+          sophomore season.
+      - question: |-
+          Given that Clark led Division I in points and assists per game, and also led in
+          total points, free throws, and triple-doubles, can you infer anything about her
+          playing style or her impact on the game?
+        answer: |-
+          Clark's statistics suggest that she is a dominant all-around player who excels
+          in scoring, rebounding, and passing. Her leading the division in free throws
+          indicates she is also a strong foul shooter, and her leading in triple-doubles
+          suggests she has a unique ability to control the game in multiple ways.
+  - context: "Entering her junior season, Clark was a unanimous selection for the\
+      \ AP preseason\nAll-America team and was named Big Ten preseason player of the\
+      \ year by the\nleague's coaches and media. On November 18, 2022, she suffered\
+      \ an ankle injury\nwith 3.8 seconds left in an 84\u201383 loss to Kansas State\
+      \ , where she recorded 27\npoints, 10 rebounds and seven assists. Clark played\
+      \ in Iowa's next game against\nBelmont  on November 20, scoring 33 points in\
+      \ a 73\u201362 victory. On December 1,\nshe scored a season-high 45 points in\
+      \ a 94\u201381 loss to  NC State . Three days\nlater, Clark posted her seventh\
+      \ career triple-double, with 22 points, 10\nrebounds and 10 assists in a 102\u2013\
+      71 win over Wisconsin . She surpassed Samantha\nLogic as the Big Ten career\
+      \ leader in triple-doubles. On December 21, in her\n75th game, Clark tied  Elena\
+      \ Delle Donne  of Delaware  as the fastest Division I\nwomen's player to reach\
+      \ 2,000 career points since the 1999\u20132000 season, scoring\n20 points in\
+      \ a 92\u201354 win over Dartmouth . On January 23, 2023, Clark recorded 28\n\
+      points, 15 assists and 10 rebounds in an 83\u201372 win over  AP  No. 2 Ohio\
+      \ State,\nwho were previously unbeaten. On February 2, she had 42 points, eight\
+      \ assists\nand seven rebounds in a 96\u201382 victory over Maryland . On February\
+      \ 26, Clark\nrecorded 34 points, nine rebounds and nine assists, making a game-winning\
+      \ three-\npointer at the buzzer, in an 86\u201385 win against AP No. 2 Indiana.\
+      \ At the end of\nthe regular season, she repeated as Big Ten Player of the Year\
+      \ in a unanimous\nvote and was named first-team All-Big Ten by the league's\
+      \ coaches and media."
+    questions_and_answers:
+      - question: |-
+          What was the score of the game where Clark tied the record for the fastest
+          Division I women's player to reach 2,000 career points?
+        answer: "92\u201354, in favor of Iowa over Dartmouth"
+      - question: |-
+          How many triple-doubles did Clark record in her career and against which team
+          did she surpass the Big Ten career leader in triple-doubles?
+        answer: |-
+          Clark recorded seven triple-doubles in her career and surpassed the Big Ten
+          career leader in triple-doubles against Wisconsin
+      - question: |-
+          Given Clark's performance against Indiana on February 26, where she was one
+          assist short of a triple-double, and her history of recording triple-doubles, is
+          it reasonable to expect that she will record a triple-double in her next game?
+        answer: |-
+          No, it is not reasonable to expect that she will record a triple-double in her
+          next game, as she has already reached the maximum number of triple-doubles in a
+          season (7) and in a career (7) according to the information provided in the
+          passage.
+  - context: "Clark led Iowa to its second consecutive  Big Ten tournament championship,\
+      \ where\nshe earned MOP honors. In the title game, she recorded 30 points, 17\
+      \ assists and\n10 rebounds in a 105\u201372 win over Ohio State, the first triple-double\
+      \ in the\nfinal of the tournament. Clark moved to second in Division I women's\
+      \ history\nbehind  Sabrina Ionescu  of Oregon  with her 10th career triple-double.\
+      \ In the\nElite Eight of the  NCAA tournament , she recorded 41 points, 12 assists\
+      \ and 10\nrebounds in a 97\u201383 win over Louisville . She became the first\
+      \ player in men's\nor women's tournament history to record a 30 or 40-point\
+      \ triple-double. During\nthe game, Clark became the first Division I player\
+      \ to record at least 900 points\nand 300 assists in a single season. For her\
+      \ performance, Clark was named the\nSeattle 4 Regional MOP as Iowa reached its\
+      \ first Final Four since\n(1992\u201393_Iowa_Hawkeyes_women's_basketball_team\
+      \ \"wikilink\"). In the Final Four,\nshe posted 41 points, eight assists, and\
+      \ six rebounds in a 77\u201373 upset win over\nundefeated defending champion\
+      \  South Carolina , ending their 42-game winning\nstreak. She broke the single-game\
+      \ scoring record for the women's tournament\nsemifinals and became the first\
+      \ player in tournament history with consecutive\n40-point games. Clark also\
+      \ surpassed the program and Big Ten single-season\nscoring records held by \
+      \ Megan Gustafson . With the win, Iowa advanced to their\nfirst women's basketball\
+      \ championship game in program history. Though Clark had\n30 points and eight\
+      \ assists against LSU  in the national championship , Iowa\nlost the game, 102\u2013\
+      85. She made eight three-pointers, the most by a men's or\nwomen's player in\
+      \ the title game. Near the end of the game, LSU star  Angel\nReese  followed\
+      \ Clark, making a \" you can't see me \" gesture implying that Clark\ncould\
+      \ not keep up with her, and also pointing to her ring finger in reference to\n\
+      LSU's imminent  championship ring . Reese received considerable criticism for\n\
+      the gestures, which many in the media viewed as unsportsmanlike . However, many\n\
+      also defended Reese's gestures and  trash talk , highlighting a double standard,\n\
+      as Clark had made the same gesture at a previous game and did not face similar\n\
+      criticism. Clark herself defended Reese over criticism about the gesture. In\n\
+      coverage of this incident, journalists and the public have commented on the\n\
+      roles of race and gender in perceptions of sportsmanship. With 191 points in\
+      \ the\ntournament, Clark broke the men's and women's scoring records for a single\
+      \ NCAA\ntournament. Her 60 assists were the most by a player in women's tournament\n\
+      history."
+    questions_and_answers:
+      - question: |-
+          What was the score of the Big Ten tournament championship game where Clark
+          recorded a triple-double?
+        answer: "105\u201372, with Iowa winning over Ohio State."
+      - question: |-
+          How many triple-doubles did Clark have in her career and in the Big Ten
+          tournament championship game?
+        answer: |-
+          Clark had 10 career triple-doubles, with the first one in the final of the Big
+          Ten tournament.
+      - question: |-
+          Based on Clark's performance, why might she have been named the Seattle 4
+          Regional MOP?
+        answer: |-
+          Clark's exceptional performance in the Seattle 4 Regional, including scoring 41
+          points, 12 assists, and 10 rebounds in the Elite Eight game, likely contributed
+          to her being named the Seattle 4 Regional MOP.
+  - context: |-
+      Clark won all major national player of the year awards:  AP Player of the Year ,
+      the  Honda Sports Award , the  John R. Wooden Award ,  Naismith College Player
+      of the Year ,  USBWA National Player of the Year  and the Wade Trophy . She was
+      the first unanimous national player of the year in Big Ten history. Clark won
+      the Nancy Lieberman Award for a second time and became the first three-time
+      winner of the Dawn Staley Award. She was a unanimous first-team All-American for
+      a second straight season, earning first-team recognition from the AP and USBWA
+      and making the WBCA Coaches' All-America Team. As a junior, Clark averaged 27.8
+      points, 8.6 assists and 7.1 rebounds per game, leading Division I in assists and
+      ranking second in scoring. She set Big Ten single-season records in points,
+      assists, three-pointers and free throws, and tied her own conference record with
+      five triple-doubles. She had the fourth-most points and assists and the third-
+      most three-pointers in a season in Division I history. Following the season,
+      Clark won the Best Female College Athlete ESPY Award  and the  Honda Cup , both
+      honoring the top women's college athlete, and the  James E. Sullivan Award ,
+      presented annually by the AAU to the top college or Olympic athlete in the
+      United States. She was selected as the  Big Ten Female Athlete of the Year .
+    questions_and_answers:
+      - question: What award did Clark win for a second time?
+        answer: The Nancy Lieberman Award
+      - question: What are the awards that Clark won in her junior year?
+        answer: |-
+          Clark won the Nancy Lieberman Award for a second time, the Dawn Staley Award,
+          the Best Female College Athlete ESPY Award, the Honda Cup, the James E. Sullivan
+          Award, and was selected as the Big Ten Female Athlete of the Year.
+      - question: |-
+          Based on her statistics, why was Clark a unanimous first-team All-American for a
+          second straight season?
+        answer: |-
+          Clark's statistics as a junior, where she averaged 27.8 points, 8.6 assists, and
+          7.1 rebounds per game, led Division I in assists, and ranked second in scoring,
+          justify her being a unanimous first-team All-American for a second straight
+          season.
+  - context: "Entering her senior season, Clark was named preseason Big Ten Player\
+      \ of the Year\nand earned unanimous AP preseason All-American honors. On October\
+      \ 15, 2023, she\nplayed in  Crossover at Kinnick , a preseason  exhibition game\
+      \  against DePaul\nat  Kinnick Stadium , and had a triple-double of 34 points,\
+      \ 11 rebounds and 10\nassists in a 94\u201372 win. The game had an attendance\
+      \ of 55,646, which set the\nwomen's basketball record. In her second regular\
+      \ season game, on November 9,\nClark posted 44 points, eight rebounds and six\
+      \ assists in an 80\u201376 win over AP\nNo. 8  Virginia Tech . In Iowa's third\
+      \ game, a 94\u201353 blowout of Northern Iowa on\nNovember 12, Clark recorded\
+      \ her 12th career triple-double, with 24 points, 11\nassists and 10 rebounds.\
+      \ She became Iowa's all-time leading scorer, passing\nMegan Gustafson, and became\
+      \ only the second player in Division I history with a\ntriple-double in four\
+      \ different seasons, joining Ionescu. One week later, she\nrecorded 35 points,\
+      \ 10 assists, six rebounds and seven steals in a 113\u201390 win\nover Drake,\
+      \ passing  Kelsey Plum  of Washington  for the most 30-point games in\nwomen's\
+      \ Division I history."
+    questions_and_answers:
+      - question: Who did Clark pass to become the all-time leading scorer at Iowa?
+        answer: Megan Gustafson
+      - question: How many triple-doubles did Clark record in her first three games
+          of the season?
+        answer: |-
+          Clark recorded a total of 4 triple-doubles in her first three games of the
+          season.
+      - question: |-
+          Based on the information provided, why is Clark considered a significant player
+          in women's Division I basketball history?
+        answer: |-
+          Clark is a significant player in women's Division I basketball history because
+          she is the second player to record a triple-double in four different seasons,
+          and she has the most 30-point games in women's Division I history, passing
+          Kelsey Plum of Washington.
+  - context: "On December 6, 2023, Clark became the 15th Division I player to reach\
+      \ 3,000\ncareer points and was the second-fastest to reach the mark, posting\
+      \ 35 points,\nnine rebounds and five assists in a 67\u201358 victory over Iowa\
+      \ State. On December\n16, Clark scored 38 points and made nine three-pointers\
+      \ in a 104\u201375 win over\nCleveland State . Three days later, she shared\
+      \  Sporting News   Athlete of the\nYear  honors with Angel Reese. Later that\
+      \ week, Clark was announced as the\nrunner-up to gymnast  Simone Biles  for\
+      \ the  AP Female Athlete of the Year\naward. On December 21, in Iowa's final\
+      \ non-conference game, she recorded a\ntriple-double of 35 points, 17 rebounds,\
+      \ and 10 assists in the Hawkeyes' 98\u201369\nwin over  Loyola Chicago . In\
+      \ her next game, on December 30, Clark posted 35\npoints and 10 assists in a\
+      \ 94\u201371 victory against Minnesota, surpassing  Samantha\nPrahalis  of Ohio\
+      \ State to become the Big Ten's all-time leader in assists.\nDuring that game,\
+      \ she also eclipsed Samantha Logic for the program record in the\nsame category.\
+      \ On January 2, 2024, Clark scored 40 points and made a long, game-\nwinning\
+      \ three-pointer as time expired in a 76\u201373 win over  Michigan State .\n\
+      Three days later, she posted 29 points, 10 rebounds and 10 assists in a 103\u2013\
+      69\nwin over Rutgers . On January 8, Clark was named Big Ten Player of the Week\
+      \ for\nthe 24th time in her career, breaking the conference record held by Gustafson.\n\
+      In her following game, she registered her second consecutive triple-double,\
+      \ with\n26 points, 10 rebounds and 10 assists in a 96\u201371 victory against\
+      \ Purdue . On\nJanuary 21, Clark recorded 45 points and seven assists in a 100\u2013\
+      92 overtime loss\nto AP No. 18 Ohio State. After the game, as Ohio State fans\
+      \ were  rushing the\ncourt , she was knocked down in a collision with a fan\
+      \ but did not suffer an\ninjury, despite initially appearing to be in pain."
+    questions_and_answers:
+      - question: Who did Clark share the Sporting News Athlete of the Year honors
+          with?
+        answer: Angel Reese
+      - question: |-
+          What are two records Clark broke in the game against Minnesota on December 30,
+          2023?
+        answer: |-
+          Clark surpassed Samantha Prahalis of Ohio State to become the Big Ten's all-time
+          leader in assists and also eclipsed Samantha Logic for the program record in the
+          same category.
+      - question: |-
+          Given Clark's performance against Michigan State on January 2, 2024, why might
+          she be considered a clutch player?
+        answer: |-
+          Clark is considered a clutch player because she scored 40 points and made a
+          long, game-winning three-pointer as time expired in the game.
+  - context: "On January 31, 2024, Clark posted 35 points and 10 assists in a 110\u2013\
+      74 win over\nNorthwestern , breaking the Big Ten all-time scoring record held\
+      \ by Kelsey\nMitchell of Ohio State. In February,  Fox began devoting a camera,\
+      \ called the\n\"Caitlin Cam,\" to record Clark during its broadcasts of Iowa\
+      \ games and to stream\non TikTok . She became the sixth Division I women's player\
+      \ with 1,000 career\nassists during the Hawkeyes' 82\u201379 loss at Nebraska\
+      \ on February 11, where she\ntallied 31 points, 10 assists and eight rebounds.\
+      \ On February 15, Clark became\nthe  NCAA Division I women's career scoring\
+      \ leader , surpassing Kelsey Plum,\nduring a 106\u201389 win over Michigan.\
+      \ She finished the game with a career-high 49\npoints, 13 assists and five rebounds,\
+      \ eclipsing Gustafson for the program\nsingle-game scoring record. Between her\
+      \ points and assists, Clark was\nresponsible for 79 of her team's points, the\
+      \ most by any Division I women's\nplayer in at least 25 seasons. On February\
+      \ 28, Clark passed  Lynette Woodard ,\nwho played for Kansas  in the era when\
+      \ the  Association of Intercollegiate\nAthletics for Women governed women's\
+      \ college sports, to become the all-time\nleader in points among major women's\
+      \ college players. During the game, she\nposted her second straight triple-double,\
+      \ with 33 points, 12 assists and 10\nrebounds, leading the Hawkeyes to a 108\u2013\
+      60 win over Minnesota. She also set the\nBig Ten career record for three-pointers,\
+      \ surpassing Kelsey Mitchell, and the\nNCAA single-season record in the same\
+      \ category, previously held by Taylor Pierce\nof Idaho . In her final regular\
+      \ season game, on March 3, Clark became the NCAA\nDivision I all-time leading\
+      \ scorer among men's or women's players, eclipsing\nPete Maravich , who had\
+      \ set the men's scoring record in three seasons with LSU .\nShe tallied 35 points,\
+      \ nine assists and six rebounds in a 93\u201383 win over AP No.\n2 Ohio State.\
+      \ She finished the regular season as the unanimous Big Ten Player of\nthe Year\
+      \ and earned first-team All-Big Ten honors from the league's coaches and\nmedia."
+    questions_and_answers:
+      - question: |-
+          Who did Caitlin Clark surpass to become the all-time leading scorer among major
+          women's college players?
+        answer: Lynette Woodard
+      - question: |-
+          What are the three records Caitlin Clark set during her final regular season
+          game against Ohio State?
+        answer: |-
+          Caitlin Clark became the NCAA Division I all-time leading scorer among men's or
+          women's players, eclipsing Pete Maravich's men's scoring record, tallied 35
+          points, and set the NCAA single-season record in three-pointers.
+  - context: "During the Hawkeyes' quarterfinal win over  Penn State  at the 2024\
+      \ Big Ten\ntournament , Clark surpassed  Stephen Curry  of Davidson  and  Darius\
+      \ McGhee  of\nLiberty  for the most three-pointers in a single season by any\
+      \ Division I player\nregardless of gender. In a semifinal win over Michigan,\
+      \ she became the first\nDivision I women's player to score at least 1,000 points\
+      \ in two different\nseasons and passed Mitchell as the career leading scorer\
+      \ in the  Big Ten\ntournament . Clark led Iowa to its third straight Big Ten\
+      \ tournament title and\nwas named MOP after recording 34 points, 12 assists\
+      \ and seven rebounds in a\n94\u201389 overtime win over Nebraska in the final.\
+      \ In the second round of the  NCAA\ntournament , Clark scored 32 points and\
+      \ surpassed Kelsey Plum for the most\npoints in a single season in Division\
+      \ I women's history, leading Iowa to a 64\u201354\nwin over  West Virginia .\
+      \ The Elite Eight saw a rematch of the 2023 national\nchampionship game against\
+      \  LSU , where Clark had 41 points, 12 assists and seven\nrebounds in a 94\u2013\
+      87 victory, leading the Hawkeyes to their second straight Final\nFour and a\
+      \ school-record 33 wins and being named Albany 2 Regional MOP. Her nine\nthree-pointers\
+      \ tied the most by a player in an NCAA tournament game. She\nsurpassed Taylor\
+      \ Robertson's record of 537, set in five seasons at Oklahoma , to\nbecome the\
+      \ all-time Division I leader in three-pointers. Clark also broke NCAA\ntournament\
+      \ career marks in assists and three-pointers, held by  Temeka Johnson\nof LSU\
+      \ and  Diana Taurasi  of UConn, respectively. In the Final Four, she posted\n\
+      21 points, nine rebounds and seven assists in a 71\u201369 win over  UConn ,\
+      \ as Iowa\nreached the  national championship game for a second consecutive\
+      \ season. Clark\nhad 30 points, eight rebounds and five assists in an 87\u2013\
+      75 loss to South\nCarolina, the number one overall seed, in the title game.\
+      \ She scored 18 points\nin the first quarter, the most by a player in a single\
+      \ period in championship\ngame history. She also surpassed  Chamique Holdsclaw\
+      \  of Tennessee  for the NCAA\ntournament career scoring record."
+    questions_and_answers:
+      - question: |-
+          Who did Caitlin Clark surpass for the most three-pointers in a single season by
+          any Division I player?
+        answer: Stephen Curry of Davidson and Darius McGhee of Liberty
+      - question: How many points did Caitlin Clark score in the 2024 NCAA tournament?
+        answer: Caitlin Clark scored 181 points in the 2024 NCAA tournament
+      - question: |-
+          Based on the information provided, why is Caitlin Clark considered one of the
+          greatest players in NCAA women's basketball history?
+        answer: |-
+          Caitlin Clark is considered one of the greatest players in NCAA women's
+          basketball history because she broke multiple records during the 2024 season,
+          including the most three-pointers in a single season, the most points in a
+          single season, and the NCAA tournament career scoring record. She also led her
+          team to their second straight Final Four and a school-record 33 wins.
+  - context: |-
+      Clark was named national player of the year for her second straight season,
+      receiving AP Player of the Year, the Honda Sports Award, the John R. Wooden
+      Award, Naismith College Player of the Year, USBWA National Player of the Year
+      and the Wade Trophy. For a third time, she won the Nancy Lieberman Award as the
+      top Division I point guard and was named a unanimous first-team All-American. In
+      her senior season, Clark averaged 31.6 points, 8.9 assists and 7.4 rebounds per
+      game, leading Division I in scoring and assists. She finished with the highest
+      career scoring average (28.42) in Division I history, passing  Patricia Hoskins
+      of  Mississippi Valley State . Clark left Iowa with the most career points
+      (3,951) and three-pointers (548), the second-most triple-doubles (17) and the
+      third-most assists (1,144) in Division I history. Following the season, it was
+      announced that Iowa would  retire  her jersey number 22, making her the third
+      player in program history to receive the honor.
+    questions_and_answers:
+      - question: What award did Clark win for the second consecutive year?
+        answer: Clark was named national player of the year for her second straight
+          season.
+      - question: What were the major achievements of Clark in her senior season?
+        answer: |-
+          In her senior season, Clark averaged 31.6 points, 8.9 assists and 7.4 rebounds
+          per game, leading Division I in scoring and assists. She also won several awards
+          including AP Player of the Year, the Honda Sports Award, the John R. Wooden
+          Award, Naismith College Player of the Year, USBWA National Player of the Year
+          and the Wade Trophy. She also won the Nancy Lieberman Award as the top Division
+          I point guard and was named a unanimous first-team All-American.
+      - question: |-
+          Given Clark's scoring average and the number of points she scored in her career,
+          how does her career scoring average compare to the rest of Division I history?
+        answer: |-
+          Clark finished with the highest career scoring average (28.42) in Division I
+          history, passing Patricia Hoskins of Mississippi Valley State.
+  - context: "Clark represented the  United States at the  2017 FIBA Under-16 Women's\
+      \ Americas\nChampionship in  Buenos Aires, Argentina . She came off the bench\
+      \ and averaged\n8.8 points per game, helping her team achieve a 5\u20130 record\
+      \ and win the gold\nmedal. Clark played at the  2019 FIBA Under-19 Women's Basketball\
+      \ World Cup  in\nBangkok, Thailand . In seven games, she averaged 5.3 points\
+      \ per game and won\nanother gold medal, as her team finished with a 7\u2013\
+      0 record. Clark competed at\nthe  2021 FIBA Under-19 Women's Basketball World\
+      \ Cup  in Debrecen, Hungary  and\nled the United States to the gold medal. She\
+      \ averaged a team-high 14.3 points,\n5.6 assists, and 5.3 rebounds per game,\
+      \ was named  Most Valuable Player and made\nthe  All-Tournament Team ."
+    questions_and_answers:
+      - question: |-
+          What was Clark's average points per game in the 2019 FIBA Under-19 Women's
+          Basketball World Cup?
+        answer: '5.3'
+      - question: |-
+          How many gold medals did Clark win in total across all the tournaments
+          mentioned?
+        answer: '3'
+      - question: |-
+          Based on the information provided, why was Clark named the Most Valuable Player
+          at the 2021 FIBA Under-19 Women's Basketball World Cup?
+        answer: |-
+          Clark led the United States to the gold medal, averaged a team-high 14.3 points,
+          5.6 assists, and 5.3 rebounds per game at the 2021 FIBA Under-19 Women's
+          Basketball World Cup.
+  - context: |-
+      Listed at , Clark plays  point guard , and writers have noted her great size for
+      her position. She is praised for her versatility, particularly on offense, with
+      The Washington Post  columnist Jerry Brewer stating that no player in the men's
+      or women's game "checks every offensive box" as distinctly as her. Clark has the
+      ability to score in the  paint , in mid-range and from three-point range. Her
+      shooting range has been lauded by analysts; she often makes shots from well
+      behind the three-point line and with a high degree of difficulty. Her shooting
+      has often drawn comparisons to  National Basketball Association  (NBA) player
+      Stephen Curry . Analysts have also praised Clark's passing ability, which  The
+      Athletic  writer Sabreena Merchant described as being "equally audacious" as her
+      shooting. She can pass ahead in transition and find her teammates through
+      defensive traffic. Her combination of scoring and passing skills helps her excel
+      in the  pick and roll . Writers have likened Clark's talent and personality to
+      Diana Taurasi . Iowa head coach Lisa Bluder compared her to  Sue Bird  and
+      Sabrina Ionescu. Clark has modeled parts of her game after  Maya Moore ,  LeBron
+      James , Kevin Durant  and  Pete Maravich .
+    questions_and_answers:
+      - question: What position does Clark play in basketball?
+        answer: Clark plays point guard in basketball.
+      - question: |-
+          What skills and abilities does Clark have that have been praised by analysts and
+          writers?
+        answer: |-
+          Clark has been praised for her versatility, particularly on offense, her ability
+          to score in the paint, mid-range and from three-point range, her shooting range
+          which often draws comparisons to NBA player Stephen Curry, her equally audacious
+          passing ability, and her talent in the pick and roll. Her combination of scoring
+          and passing skills has been noted to help her excel in the game.
+      - question: |-
+          Based on the comparisons made by writers, who does Clark's talent and
+          personality resemble?
+        answer: |-
+          Clark's talent and personality have been likened to Diana Taurasi, Sue Bird,
+          Sabrina Ionescu, and Maya Moore, LeBron James, Kevin Durant, and Pete Maravich.
+  - context: |-
+      Widely considered a generational talent, Clark is described as one of the
+      greatest women's college basketball players of all time by many publications.
+      ESPN analyst  Rebecca Lobo  called her the best offensive women's college player
+      since  Diana Taurasi . In part due to her unprecedented shooting range and
+      proficiency among female players, Clark has been labeled a transformative player
+      in women's basketball . Her impact on the women's game is likened to that of
+      Stephen Curry on the men's game.  USA Today  stated that she, like Curry, has
+      "redefined what a good shot is in basketball."  The Wall Street Journal
+      columnist Jason Gay wrote: "Clark is far from the first great shooter in women's
+      basketball, but she's the one who is changing the dimensionality of the game,
+      because of the distance she can shoot from and how well she can pass."
+    questions_and_answers:
+      - question: Who has been labeled a transformative player in women's basketball?
+        answer: Clark
+      - question: |-
+          How is Clark's impact on women's basketball described in comparison to Stephen
+          Curry's impact on the men's game?
+        answer: |-
+          Clark's impact on women's basketball is likened to that of Stephen Curry on the
+          men's game, she has 'redefined what a good shot is in basketball.'
+  - context: |-
+      Clark was credited with popularizing women's basketball during her college
+      career, a phenomenon known as the "Caitlin Clark effect." Publications
+      attributed increases in attendance and television viewership for the sport to
+      Clark.  Richard Deitsch  of  The Athletic  noted that Clark attracted a wider
+      audience to the  2023 NCAA tournament because of her long-range shooting,
+      confident playing style and  Middle American  appeal. She helped the  national
+      championship game become the most-viewed women's college basketball game in
+      history (9.9 million). During her senior season, her team sold out all of its
+      home games for the first time in program history and set the women's basketball
+      attendance record (55,646) at a  preseason exhibition game . Each team hosting
+      Iowa during the regular season set an attendance record, with an average
+      attendance increase of 150%, and the  2024 Big Ten tournament  sold out for the
+      first time.
+    questions_and_answers:
+      - question: |-
+          What is the name of the person credited with popularizing women's basketball
+          during her college career?
+        answer: Caitlin Clark
+      - question: |-
+          What are the impacts of Caitlin Clark's college career on the popularity and
+          attendance of women's basketball?
+        answer: |-
+          Caitlin Clark's college career led to increased attendance and television
+          viewership for women's basketball, including setting the most-viewed women's
+          college basketball game in history, selling out all home games for the first
+          time in program history, setting the women's basketball attendance record at a
+          preseason exhibition game, and selling out the 2024 Big Ten tournament for the
+          first time.
+      - question: |-
+          Based on the information provided, can it be inferred that Caitlin Clark's
+          college career had a significant impact on the growth and popularity of women's
+          basketball?
+        answer: |-
+          Yes, it can be inferred that Caitlin Clark's college career had a significant
+          impact on the growth and popularity of women's basketball, as evidenced by
+          increased attendance, television viewership, and the breaking of various
+          attendance records.
+  - context: "During Clark's final season at Iowa, regular season games featuring\
+      \ her became\nthe most-viewed women's basketball games of all time on six different\
+      \ TV\nnetworks\u2014the  Big Ten Network , ABC , Fox , FS1 ,  NBC , and Peacock\
+      \ . Her last\nregular season game, in which she surpassed Maravich's Division\
+      \ I career scoring\nrecord, was the most-watched regular season women's basketball\
+      \ game since 1999,\nas well as the second-most watched college basketball game\
+      \ of the season\n(including men's games). At the 2024 NCAA tournament, Clark's\
+      \ final three games\neach broke the women's college basketball viewership record,\
+      \ culminating with\n18.9 million viewers for the national championship game.\
+      \ It was the most-viewed\nbasketball game at any level since 2019 and the first\
+      \ women's NCAA tournament\nfinal to draw more viewers than the men's final."
+    questions_and_answers:
+      - question: |-
+          Which six different TV networks featured Clark's games during her final season
+          at Iowa?
+        answer: The Big Ten Network, ABC, Fox, FS1, NBC, and Peacock
+      - question: |-
+          How many of Clark's final games during the 2024 NCAA tournament broke the
+          women's college basketball viewership record?
+        answer: |-
+          Three of Clark's final games broke the women's college basketball viewership
+          record
+      - question: |-
+          Based on the provided context, can we infer that Clark's popularity and
+          viewership records have contributed to the growth and visibility of women's
+          basketball?
+        answer: |-
+          Yes, based on the context, Clark's final games have significantly contributed to
+          the growth and visibility of women's basketball.
+  - context: "Clark's father, Brent Clark, is a sales executive at Concentric International\n\
+      and played basketball and  baseball at  Simpson College . Her mother, Anne\n\
+      Nizzi-Clark, who is of Italian descent, is a former marketing executive and\
+      \ the\ndaughter of former Dowling Catholic High School football coach Bob Nizzi.\
+      \ She\nhas an older brother, Blake, who played  college football  for  Iowa\
+      \ State , and\na younger brother, Colin. Her cousin, Audrey Faber, played college\
+      \ basketball\nfor Creighton . Two of Clark's uncles are former college athletes:\
+      \ Tom Faber\nplayed basketball for  Drake  and Utica , and Mike Nizzi played\
+      \ football for\nNebraska\u2013Omaha . She is in a relationship with Connor McCaffery,\
+      \ who played\nbasketball and baseball for Iowa and is the son of Hawkeyes men's\
+      \ basketball\nhead coach Fran McCaffery ."
+    questions_and_answers:
+      - question: What is the name of Clark's mother?
+        answer: Anne Nizzi-Clark
+      - question: Who are the athletes in Clark's family?
+        answer: "Clark's father, Brent Clark, played basketball and baseball at Simpson\
+          \ College.\nHer mother, Anne Nizzi-Clark, is a former marketing executive.\
+          \ Clark has an\nolder brother, Blake, who played college football for Iowa\
+          \ State, and a younger\nbrother, Colin. Her cousin, Audrey Faber, played\
+          \ college basketball for\nCreighton. Two of Clark's uncles are former college\
+          \ athletes: Tom Faber played\nbasketball for Drake and Utica, and Mike Nizzi\
+          \ played football for\nNebraska\u2013Omaha."
+      - question: |-
+          Based on the information provided, what can be inferred about Clark's
+          relationship?
+        answer: |-
+          Clark is in a relationship with Connor McCaffery, who played basketball and
+          baseball for Iowa and is the son of Hawkeyes men's basketball head coach Fran
+          McCaffery.
+  - context: |-
+      Clark  majors  in marketing  at the  University of Iowa . In her sophomore year,
+      she was named a first-team  Division I  Academic All-American by the College
+      Sports Information Directors of America, since renamed  College Sports
+      Communicators  (CSC). As a junior, Clark was honored by the CSC as the 2023
+      Division I  Women's Basketball Academic All-American of the Year before winning
+      the same award for all Division I sports. At the end of her senior year, Clark
+      again was named the CSC's Division I Women's Basketball Academic All-American of
+      the Year, completing her college career with a 3.64 GPA.
+    questions_and_answers:
+      - question: What is Clark's major at the University of Iowa?
+        answer: Clark majors in marketing at the University of Iowa.
+      - question: What are the academic achievements of Clark in her college career?
+        answer: |-
+          Clark was a first-team Division I Academic All-American in her sophomore year,
+          won the Division I Women's Basketball Academic All-American of the Year in her
+          junior and senior years, and completed her college career with a 3.64 GPA.
+      - question: |-
+          Based on the information provided, why was Clark honored by the CSC as the
+          Division I Women's Basketball Academic All-American of the Year in her junior
+          and senior years?
+        answer: |-
+          Clark was honored as the Division I Women's Basketball Academic All-American of
+          the Year in her junior and senior years because she excelled academically and
+          demonstrated a high level of achievement in her sport.
+  - context: |-
+      Clark is represented by Excel Sports Management. She was estimated to be one of
+      the highest-earning college athletes from  name, image, and likeness  (NIL)
+      deals. By the end of her career at Iowa, college sports website On3 estimated
+      her NIL valuation as $3.4 million, the most among women's college basketball
+      players and the fourth-most among college athletes. On August 18, 2021, she
+      signed her first NIL deal with The Vinyl Studio, a company based in  West Des
+      Moines, Iowa . Clark signed with Nike  on October 10, 2022; she has often worn
+      shoes from the company's  Kobe Bryant  signature shoe line. On October 10, 2023,
+      she became a spokesperson for State Farm  and was the first college athlete to
+      sign with the company. That December, Clark added Gatorade  to her list of
+      endorsements, joining Paige Bueckers  as the only women's basketball players to
+      sign with the company. As part of the deal, Gatorade donated $22,000, in
+      reference to her number 22 jersey, to the Caitlin Clark Foundation, which aims
+      to benefit youth and their communities through education, nutrition and sport.
+      She is partnered with the Iowa-based supermarket chain Hy-Vee , which launched a
+      cereal called "Caitlin's Crunch Time" at select stores in January 2024, with
+      proceeds going to Clark's foundation, and has paid for private security to
+      accompany her at some public events. She has also signed NIL deals with Bose ,
+      Buick ,  Goldman Sachs ,  H&R Block  and Topps , among other companies.
+    questions_and_answers:
+      - question: Which company did Clark sign her first NIL deal with?
+        answer: The Vinyl Studio
+      - question: What are the names of the companies that Clark has signed NIL deals
+          with?
+        answer: |-
+          The Vinyl Studio, Nike, State Farm, Gatorade, Hy-Vee, Bose, Buick, Goldman
+          Sachs, H&R Block, and Topps
+      - question: |-
+          Based on the information provided, why did Gatorade donate $22,000 to the
+          Caitlin Clark Foundation?
+        answer: |-
+          Gatorade donated $22,000 to the Caitlin Clark Foundation in reference to her
+          number 22 jersey as part of their endorsement deal with her.
+  - context: |-
+      On June 18, 2022, Clark threw out the  first pitch  for the  Iowa Cubs , the
+      Triple-A  affiliate of the  Chicago Cubs , of whom she has been a lifelong fan.
+      She threw the first pitch for the Chicago Cubs on August 23 that same year. In
+      the following year, the Iowa Cubs honored Clark with her own bobblehead  night
+      and the first pitch. She has also been a lifelong fan of the  Kansas City Chiefs
+      and appeared on the ManningCast  for a  Monday Night Football  game featuring
+      the Chiefs on November 20, 2023, becoming the first college athlete to appear on
+      the broadcast.
+    questions_and_answers:
+      - question: Who did Clark throw the first pitch for on August 23, 2022?
+        answer: The Chicago Cubs
+      - question: |-
+          What significant events happened to Clark in the year 2022 in relation to
+          baseball?
+        answer: |-
+          Clark threw the first pitch for the Iowa Cubs on June 18 and the Chicago Cubs on
+          August 23. The Iowa Cubs also honored her with her own bobblehead night and the
+          first pitch in the following year.
+      - question: |-
+          Given Clark's appearances for the Iowa Cubs and the Chicago Cubs, and her
+          lifelong fandom of both teams, why is her appearance on the ManningCast
+          significant?
+        answer: |-
+          Clark's appearance on the ManningCast is significant because she is the first
+          college athlete to appear on the broadcast, and it further highlights her
+          connection with professional sports.
+  - context: |-
+      In August 2023, the  Iowa State Fair unveiled a life-size  butter sculpture  of
+      Clark. She was one of three Iowa college athletes, alongside former football
+      players  Kurt Warner  ( Northern Iowa ) and  Jack Trice  ( Iowa State ), whose
+      sculptures were displayed. On February 22, 2024, the  Iowa House of
+      Representatives  unanimously passed a  resolution  declaring February 22 as
+      "Caitlin Clark Day" in the state, in reference to her jersey number. On March 5,
+      members of Iowa's federal delegation, including senators  Joni Ernst  and  Chuck
+      Grassley  and representative  Mariannette Miller-Meeks , introduced a resolution
+      to recognize Clark for breaking the NCAA Division I scoring record.
+    questions_and_answers:
+      - question: |-
+          Which college athlete's butter sculpture was unveiled at the Iowa State Fair in
+          August 2023?
+        answer: Caitlin Clark
+      - question: |-
+          Who are the three Iowa college athletes honored with butter sculptures and
+          federal recognition for their athletic achievements?
+        answer: Caitlin Clark, Kurt Warner, and Jack Trice
+  - context: |-
+      Clark was the subject of media attention ahead of the  Iowa Republican
+      presidential caucuses  in January 2024. Before attending the Hawkeyes' home game
+      against Minnesota, presidential candidate  Nikki Haley praised Clark in front of
+      a local crowd but mistakenly called her "Caitlin Collins". Writers speculated
+      that Haley confused Clark's name with  CNN  anchor  Kaitlan Collins , who joked
+      about the incident on X . In the following week, Collins hosted an interview in
+      Iowa with presidential candidate  Ron DeSantis , who handed her a Clark jersey
+      in reference to the incident.
+    questions_and_answers:
+      - question: What was the name of the CNN anchor that Nikki Haley mistakenly
+          called Clark?
+        answer: Kaitlan Collins
+document:
+  repo: https://github.com/aokugel/ilab-etx-handson.git
+  commit: 47bbb275afc5e02c4af5851390e81c29017bfea1
+  patterns:
+    - caitlin_clark.md
